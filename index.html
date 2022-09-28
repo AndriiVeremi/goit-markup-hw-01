@@ -7,20 +7,19 @@
     <title>Домашня робота</title>
   </head>
   <body>
+
     <!--Header-->
 
     <header class="header">
       <div class="header-container">
         <div class="nav">
           <div class="logo">
-            <a href="#">WebStudio</a>
+            <a href="#"><span>Web</span>Studio</a>
           </div>
-          <nav>
-            <ul>
-              <li>Студія</li>
-              <li>Портфоліо</li>
-              <li>Контакти</li>
-            </ul>
+          <nav class="nav">
+            <a class="nav-link" href="#">Студія</a>
+            <a class="nav-link" href="#">Портфоліо</a>
+            <a class="nav-link" href="#">Контакти</a>
           </nav>
           <div class="contacts">
             <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
@@ -29,7 +28,7 @@
         </div>
         <div class="header_content">
           <h1>Ефективні рішення для вашого бізнесу</h1>
-          <button>Замовити послугу</button>
+          <button class="button">Замовити послугу</button>
         </div>
       </div>
     </header>
@@ -38,28 +37,29 @@
 
     <main class="main">
       <div class="main-container">
-        <section>
-          <div>
+        <!--skils info-->
+        <section class="skils">
+          <div class="skils_item">
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </div>
-          <div>
+          <div class="skils_item">
             <h3>ПУНКТУАЛЬНІСТЬ</h3>
             <p>
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </div>
-          <div>
+          <div class="skils_item">
             <h3>ПЛАНУВАННЯ</h3>
             <p>
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </div>
-          <div>
+          <div class="skils_item">
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p>
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -68,40 +68,43 @@
           </div>
         </section>
 
-        <section>
-          <div>
+        <!--What_do_we_do info-->
+
+        <section class="What_dowedo">
+          <div class="What_dowedo_items">
             <h2>Чим ми займаємося</h2>
-            <img src="#" alt="1" />
-            <img src="#" alt="2" />
-            <img src="#" alt="3" />
+            <a href="#"><img src="#" alt="1" /></a>
+            <a href="#"><img src="#" alt="2" /></a>
+            <a href="#"><img src="#" alt="3" /></a>
           </div>
         </section>
 
-        <!--cards-wrapper-->
-        <section>
-          <div class="cards-wrapper">
+        <!--team info-->
+
+        <section class="team">
+          <div class="team-info">
             <h2>Наша команда</h2>
-            <!--Card 1-->
-            <div class="card">
-              <img src="#" alt="1" />
+
+            <div class="team_card">
+              <img src="../goit-markup-hw-01/images/team_img_3.jpg" alt="1" />
               <h5>Ігор Дем'яненко</h5>
               <p>Product Designer</p>
             </div>
-            <!--Card 2-->
-            <div class="card">
-              <img src="#" alt="2" />
+
+            <div class="team_card">
+              <img src="../goit-markup-hw-01/images/team_img_4.jpg" alt="2" />
               <h5>Ольга Рєпіна</h5>
               <p>Frontend Developer</p>
             </div>
-            <!--Card 3-->
-            <div class="card">
-              <img src="#" alt="3" />
+
+            <div class="team_card">
+              <img src="../goit-markup-hw-01/images/team_img_2.jpg" alt="3" />
               <h5>Микола Тарасов</h5>
               <p>Marketing</p>
             </div>
-            <!--Card 3-->
-            <div class="card">
-              <img src="#" alt="4" />
+
+            <div class="team_card">
+              <img src="../goit-markup-hw-01/images/team_img_1.jpg" alt="4" />
               <h5>Михайло Єрмаков</h5>
               <p>UI Designer</p>
             </div>
@@ -110,17 +113,19 @@
       </div>
     </main>
 
-    <footer>
-      <div class="logo_footer">
-        <a href="#">WebStudio</a>
-      </div>
-      <div>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <p>info@devstudio.com</p>
-        <p>+38 096 111 11 11</p>
+    <!--footer-->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="logo_footer">
+          <a href="#">WebStudio</a>
+        </div>
+        <div class="info">
+          <p>м. Київ, пр-т Лесі Українки, 26</p>
+          <p>info@devstudio.com</p>
+          <p>+38 096 111 11 11</p>
+        </div>
       </div>
     </footer>
-
-    
   </body>
 </html>
